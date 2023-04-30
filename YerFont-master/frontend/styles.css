@@ -1,0 +1,137 @@
+
+.header-img{
+    background-image: url(https://images.unsplash.com/photo-1455390582262-044cdead277a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1266&q=80);  
+    background-position: center;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 3px solid white;
+}
+
+#prompt{
+  font-family: 'Raleway';
+  margin-top:20px
+}
+
+.header-txt { 
+  text-shadow: 0.5px 0.5px #000000;
+  font-size: 2.5em;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  text-align: center;
+}
+
+.header-txt h1{
+  font-size:1.5em;
+}
+.header-txt hr{
+  
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+
+}
+
+/* canvas */
+#container .img{ 
+  position: absolute;
+  z-index:1;
+  margin-top: 35px;
+  width: 300px;
+}
+
+#container{
+    background: transparent; 
+    position:relative; 
+}
+
+
+#container{
+    background: transparent; 
+    position:relative; 
+}
+
+#imageView{
+    font-family: 'Raleway';
+    width: 500px;
+    height: 500px;
+    border: 1px solid #000;
+    position:relative;
+    z-index:20;
+    background-repeat: no-repeat; 
+    background-size: 50%;
+    background-image: url('lines.svg');  background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#create-btn:hover {
+  /* background-color: solid rgb(0, 29, 124); */
+  transition-duration: 0.3s;
+  color: white;
+}  
+
+#create-btn{
+  background-color: #7ed682;
+  width: 175px;
+}
+
+
+#submit:hover {
+  /* background-color: #4CAF50; */
+  transition-duration: 0.3s;
+  color: white;
+}
+
+
+
+#clear:hover {
+  /* background-color: solid rgb(255, 42, 42); */
+  transition-duration: 0.3s;
+  color: white;
+}  
+
+
+.canva{
+  font-family: 'Raleway';
+  text-align: center;
+}
+#submit{
+  font-family: 'Raleway';
+  margin: 0 25%;
+  width: 100px;
+}
+#clear{
+  font-family: 'Raleway';
+  margin-left: 25%;
+  width: 100px;
+}
+
+.credits{ 
+  margin-top: 40px;
+  padding: 5px;
+  font-family: 'Raleway';
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.font{
+  font-size: 1.5em;
+  font-family: 'Raleway';
+  margin-top:30px;
+}
+
+#demo{
+  line-height: 1.2;
+  font-size: 50px;
+}

@@ -1,0 +1,7 @@
+numpy
+flask==1.1.2
+gunicorn
+matplotlib
+torch
+torchvision
+cairocffi
